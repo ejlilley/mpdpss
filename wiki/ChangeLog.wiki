@@ -1,0 +1,28 @@
+#summary mpdpss ChangeLog
+#labels Featured,Phase-Design
+
+= ChangeLog =
+
+*2010-01-20  Adolar Cieslisnki Junior and Teresa Brunner*
+        * 1.0 release
+        * mpdpss: all rewritten from scratch
+        * genres tag are not needed anymore
+        * mpd configuration doesn't need to be in the $HOME anymore
+        * consume mode not needed anymore
+        * playlists not modified anymore
+        * no need to edit the script anymore
+        * states saved in a per user mpdpss_state file now
+        * mpc added as a dependency
+        * should work now in any unix shell (needs testing)
+
+*2010-01-08  Adolar Cieslisnki Junior and Teresa Brunner*
+        * 0.1.2b release
+        * Fixed a bug where mpd.conf should include absolute paths, now the use of ~ is supported for home directory.
+
+*2010-01-06  Adolar Cieslinski Junior and Teresa Brunner*
+        * 0.1.1b release
+        * Documentation modified
+        * Added beta state to the package
+
+*2010-01-05  Adolar Cieslinski Junior and Teresa Brunner*
+        * 0.1 release (first release)
