@@ -1,4 +1,4 @@
-First make sure you have read the [Requirements] section. For the GTK+ graphical interface you need to run mpdpss with the '-g' flag. Zenity is required.
+First make sure you have read the [Requirements] section. For the GTK+ graphical interface you need to run mpdpss with the '-g' flag. [http://live.gnome.org/Zenity Zenity] is required.
 
 {{{
 $ mpdpss -g
@@ -20,6 +20,6 @@ Let's suppose that, in the example above, you loaded the playlist "international
 $ mpdpss -s 90s
 }}}
 
-Then your playlist will be saved as "90s" instead of "international".
+Then your playlist will be saved as "90s" instead of "international". Use quotes around it if the playlist name contains spaces.
 
 Other command-line options can be found at [Using_the_text_interface]
