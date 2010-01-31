@@ -1,4 +1,6 @@
 #labels Featured,Phase-Deploy
+First make sure you have read the [http://code.google.com/p/mpdpss/wiki/Requirements Requirements] part.
+
 Download the latest package available at [http://code.google.com/p/mpdpss/downloads/list Featured Downloads]. Extract it using your favorite file manager (mine is mc) or issuing the command (version is represented by 'x.x'):
 
 {{{
