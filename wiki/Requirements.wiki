@@ -3,7 +3,7 @@ mpdpss will handle [http://mpd.wikia.com/wiki/Music_Player_Daemon_Wiki MPD] play
 
 [http://mpd.wikia.com/wiki/Client:Mpc mpc] is required, but should be already installed in your system if you have MPD installed. If mpdpss doesn't find it, it will tell you.
 
-[http://live.gnome.org/Zenity Zenity] is required if you want to use the GTK+ graphical interface. Zenity doesn't require you to install GNOME dependencies.
+[http://live.gnome.org/Zenity Zenity] is required if you want to use the GTK+ graphical interface. Zenity doesn't require you to install GNOME dependencies. Run mpdpss with the -g option then.
 
 MPD, mpc, and Zenity should be available at your distribution repositories for simple installation, as well as many clients. To install MPD, mpc, Zenity, and a terminal client called ncmpcpp (just an example) in Debian based systems, like Ubuntu or Debian itself, open a terminal and type or paste (never type the "$"):
 
