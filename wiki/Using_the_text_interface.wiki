@@ -1,3 +1,4 @@
+#labels Featured,Phase-Deploy
 First make sure you have read the [http://code.google.com/p/mpdpss/wiki/Requirements Requirements] section.
 
 MPD Playlist Saver n' Switcher is actually very easy to use. The first time you run it, it will request for a name to the current playlist. It will save the playlist and you'll be presented with a list of available MPD playlists, each one with a number. You will then be asked to type the number or the playlist name (case insensitive).
@@ -28,7 +29,9 @@ Paul Baloche - Ouvre Les Yeux de Mon Coeur
 [playing] #1/1248   0:00/5:23 (0%)
 }}}
 
-The next time you run it, you won't be asked for a name again. In the example above you loaded the playlist "international". The next time you run the script, your current playlist will be automatically saved as "international". *I recommend you then to always switch playlists with mpdpss.* Let's suppose you cleared the current playlist and loaded the "90s" using your client. mpdpss will try to save it as "international", as it remembers what it did before. If you want to save that as "90s" instead when switching playlists with mpdpss, you should use the '-s' flag:
+The next time you run it, you won't be asked for a name again! In the example above you loaded the playlist "international". The next time you run the script, your current playlist will be automatically saved as "international".
+
+*I recommend you then to always switch playlists with mpdpss.* Let's suppose you cleared the current playlist and loaded the "90s" using your client. mpdpss will try to save it as "international", as it remembers what it did before. If you want to save that as "90s" instead when switching playlists with mpdpss, you could use the '-s' flag:
 
 {{{
 $ mpdpss -s 90s
@@ -49,6 +52,12 @@ Type the number or the name of the playlist to be loaded and press Enter.
 loading: international
 Paul Baloche - Ouvre Les Yeux de Mon Coeur
 [playing] #1/1248   0:00/5:23 (0%)
+}}}
+
+Or you can use the option -p to be prompted for a name to the current playlist, just like in the first time you have run it.
+
+{{{
+$ mpdpss -p
 }}}
 
 You can also specify which playlist you want to be loaded using the '-l' flag (case insensitive name or number if you already know it):
