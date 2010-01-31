@@ -20,3 +20,5 @@ $ su -c 'apt-get install mpd mpc zenity ncmpcpp'
 
 # type root password
 }}}
+
+Now you can read the [Installation] section, or if you already know how to run it, go to the [Using the text interface] or [Using the graphical interface]!
