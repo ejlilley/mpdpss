@@ -1,6 +1,7 @@
 #labels Featured,Phase-Design
 *2010-01-31 - 1.5 release*
         * mpdpss: adapted to graphical interface support using zenity (option -g)
+        * option -p added, which prompts for a name to save current playlist
         * zenity added as a recommend
 
 *2010-01-20 - 1.0 release*
