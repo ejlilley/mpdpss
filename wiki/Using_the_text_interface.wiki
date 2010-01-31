@@ -73,4 +73,4 @@ Paul Baloche - Ouvre Les Yeux de Mon Coeur
 [playing] #1/1248   0:00/5:23 (0%)
 }}}
 
-The '-g' option calls the GTK+ graphical interface, which requires you to have [http://live.gnome.org/Zenity Zenity] installed.
+The '-g' option calls the [Using_the_graphical_interface GTK+ graphical interface], which requires you to have [http://live.gnome.org/Zenity Zenity] installed.
