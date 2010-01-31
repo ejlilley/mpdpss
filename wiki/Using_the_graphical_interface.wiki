@@ -1,0 +1,70 @@
+First make sure you have read the Requirements section.
+
+http://code.google.com/p/mpdpss/logo?logo_id=1264254416
+
+MPD Playlist Saver n' Switcher is actually very easy to use. The first time you run it, it will request for a name to the current playlist. It will save the playlist and you'll be presented with a list of available MPD playlists, each one with a number. You will then be asked to type the number or the playlist name (case insensitive).
+
+$ mpdpss
+
+This is the first time you run mpdpss, welcome!
+Please, type a name to your current playlist and I will save it.
+Otherwise it will be discarded!
+Favorites
+Current playlist saved as "Favorites"
+
+Choose a playlist:
+
+     1  90s
+     2  Christmas
+     3  Favorites
+     4  Indie
+     5  international
+     6  momma's songs
+
+Type the number or the name of the playlist to be loaded and press Enter.
+5
+
+loading: international
+Paul Baloche - Ouvre Les Yeux de Mon Coeur
+[playing] #1/1248   0:00/5:23 (0%)
+
+The next time you run it, you won't be asked for a name again. In the example above you loaded the playlist "international". The next time you run the script, your current playlist will be automatically saved as "international". I recommend you then to always switch playlists with mpdpss. Let's suppose you cleared the current playlist and loaded the "90s" using your client. mpdpss will try to save it as "international", as it remembers what it did before. If you want to save that as "90s" instead when switching playlists with mpdpss, you should use the '-s' flag:
+
+$ mpdpss -s 90s
+Current playlist saved as "90s"
+
+Choose a playlist:
+
+     1  90s
+     2  Christmas
+     3  Favorites
+     4  Indie
+     5  international
+     6  momma's songs
+
+Type the number or the name of the playlist to be loaded and press Enter.
+5
+
+loading: international
+Paul Baloche - Ouvre Les Yeux de Mon Coeur
+[playing] #1/1248   0:00/5:23 (0%)
+
+You can also specify which playlist you want to be loaded using the '-l' flag (case insensitive name or number if you already know it):
+
+$ mpdpss -l International
+Current playlist saved as "90s"
+
+loading: international
+Paul Baloche - Ouvre Les Yeux de Mon Coeur
+[playing] #1/1248   0:00/5:23 (0%)
+
+Playlists specified from the command-line can be case insensitive, but if it contains spaces, you should uses quotes:
+
+$ mpdpss -s "momma's songs" -l international
+Current playlist saved as "momma's songs"
+
+loading: international
+Paul Baloche - Ouvre Les Yeux de Mon Coeur
+[playing] #1/1248   0:00/5:23 (0%)
+
+The '-g' option calls the GTK+ graphical interface, which requires you to have Zenity installed. 
