@@ -1,4 +1,8 @@
 #labels Featured,Phase-Design
+*2010-01-31 - 1.5 release*
+        * mpdpss: adapted to graphical interface support using zenity (option -g)
+        * zenity added as a recommend
+
 *2010-01-20 - 1.0 release*
         * mpdpss: all rewritten from scratch
         * genres tag are not needed anymore
