@@ -1,11 +1,11 @@
 #labels Featured,Phase-Requirements
-mpdpss will handle [http://mpd.wikia.com/wiki/Music_Player_Daemon_Wiki MPD] playlists, music will be played by MPD and you can control it by using a [http://mpd.wikia.com/wiki/Clients MPD client]. mpdpss will check if MPD is running. If it finds that it is not running, it will warn you.
+mpdpss will handle [http://mpd.wikia.com/wiki/Music_Player_Daemon_Wiki MPD] playlists, music will be played by MPD and you can control it by using a [http://mpd.wikia.com/wiki/Clients MPD client]. mpdpss will check if MPD is running.
 
 [http://mpd.wikia.com/wiki/Client:Mpc mpc] is required, but should be already installed in your system if you have MPD installed. If mpdpss doesn't find it, it will tell you.
 
 [http://live.gnome.org/Zenity Zenity] is required if you want to use the GTK+ graphical interface. Zenity doesn't require you to install GNOME libraries. Run mpdpss with the -g option then.
 
-MPD, mpc, and Zenity should be available at your distribution repositories for simple installation, as well as many clients. To install MPD, mpc, Zenity, and a terminal client called ncmpcpp (just an example) in Debian based systems, like Ubuntu or Debian itself, open a terminal and type or paste (never type the "$"):
+MPD, mpc, and Zenity should be available at your distribution repositories for simple installation, as well as many clients. To install MPD, mpc, Zenity, and a terminal client called ncmpcpp (just an example) in Debian based systems, like Ubuntu or Debian itself, you can use your package manager or open a terminal and type or paste (never type the "$"):
 
 {{{
 $ sudo apt-get install mpd mpc zenity ncmpcpp 
@@ -21,4 +21,4 @@ $ su -c 'apt-get install mpd mpc zenity ncmpcpp'
 # type root password
 }}}
 
-Now you can read the [Installation] section, or if you already know how to run it, go to the [Using the text interface] or [Using the graphical interface]!
+Now you can read the [Unpacking] section, or if you already know how to extract the downloaded package, go to the [Using_the_text_interface Using the text interface] or [Using_the_graphical_interface  Using the graphical interface]!
