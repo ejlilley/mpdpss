@@ -25,6 +25,7 @@ Or graphical mode:
 $ ./mpdpss -g
 }}}
 
+=== ===
 Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
 
 ----
@@ -48,4 +49,5 @@ Logout and login again. Then move mpdpss to Scripts/ and run it:
 $ mpdpss
 }}}
 
+=== ===
 If you use the graphical interface, you could then add "mpdpss -g" to your menu or desktop. But this varies from one Desktop Environment or Window Manager to another.
