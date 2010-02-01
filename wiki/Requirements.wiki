@@ -13,6 +13,7 @@ $ sudo apt-get install mpd mpc zenity ncmpcpp
 # type your password if needed
 }}}
 
+=== ===
 or MEPIS:
 
 {{{
@@ -21,4 +22,5 @@ $ su -c 'apt-get install mpd mpc zenity ncmpcpp'
 # type root password
 }}}
 
+=== ===
 Now you can read the [Unpacking] section, or if you already know how to extract the downloaded package, go to the [Using_the_text_interface Using the text interface] or [Using_the_graphical_interface  Using the graphical interface]!
