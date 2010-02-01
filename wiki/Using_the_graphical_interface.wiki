@@ -20,9 +20,7 @@ The next time you run it, you won't be asked for a name again, but you will go d
 
 Let's suppose that, in the example above, you loaded the playlist "international". The next time you run the script, your current playlist will be automatically saved as "international".
 
-*I recommend you then to always switch playlists with mpdpss*.
-
-If you, for example, cleared the current playlist and loaded the "90s" using your client, mpdpss will try to save it as "international", as it remembers what it did before. If you want to save that as "90s" instead when switching playlists with mpdpss, you could use the '-s' flag:
+*I recommend you then to always switch playlists with mpdpss*. If you, for example, cleared the current playlist and loaded the "90s" using your client, mpdpss will try to save it as "international", as it remembers what it did before. If you want to save that as "90s" instead when switching playlists with mpdpss, you could use the '-s' flag:
 
 {{{
 $ mpdpss -s 90s
