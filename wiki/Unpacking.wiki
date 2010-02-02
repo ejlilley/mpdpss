@@ -1,6 +1,28 @@
 #labels Featured,Phase-Deploy
 First make sure you have read the [http://code.google.com/p/mpdpss/wiki/Requirements Requirements] section.
 
+If you use a Debian based system, like Ubuntu, MEPIS, antiX, or Linux Mint: [Unpacking#Debian_based_systems].
+
+Any other *NIX like system: [Unpacking#Other_systems].
+
+----
+
+===Debian based systems===
+
+If you use a Debian based system, like Ubuntu, MEPIS, antiX, or Linux Mint, download the latest .deb package [http://code.google.com/p/mpdpss/downloads/list available here].
+
+Then install it as root, USING su OR sudo. Note that x.x refers to the version number, mpdpss_1.5_all.deb, for example.
+
+{{{
+dpkg -i mpdpss_x.x_all.deb
+}}}
+
+Or just double click on it depending on your system.
+
+----
+
+===Other systems===
+
 Download the latest package available at [http://code.google.com/p/mpdpss/downloads/list Featured Downloads]. Extract it using your favorite file manager or issuing the command (version is represented by 'x.x'):
 
 {{{
