@@ -1,27 +1,35 @@
 #labels Featured,Phase-Deploy
 First make sure you have read the [http://code.google.com/p/mpdpss/wiki/Requirements Requirements] section.
 
-If you use a Debian based system, like Ubuntu, MEPIS, antiX, or Linux Mint: [Unpacking#Debian_based_systems].
+If you use a Debian based system, like Ubuntu, MEPIS, antiX, or Linux Mint, you should prefer the .deb package. Go here: [Unpacking#Debian_based_systems Debian based systems].
 
-Any other *NIX like system: [Unpacking#Other_systems].
+Any other Unix-like system: [Unpacking#All_systems All systems].
 
 ----
 
 ===Debian based systems===
 
-If you use a Debian based system, like Ubuntu, MEPIS, antiX, or Linux Mint, download the latest .deb package [http://code.google.com/p/mpdpss/downloads/list available here].
+Download the latest .deb package [http://code.google.com/p/mpdpss/downloads/list available here].
 
-Then install it as root, USING su OR sudo. Note that x.x refers to the version number, mpdpss_1.5_all.deb, for example.
+Depending on your system, you can just double click on it. Or you can install it as root in a terminal (version is represented by 'x.x'):
 
 {{{
-dpkg -i mpdpss_x.x_all.deb
+$ sudo dpkg -i mpdpss_x.x_all.deb
 }}}
 
-Or just double click on it depending on your system.
+=== ===
+or if you don't have sudo configured:
+
+{{{
+$ su -c 'dpkg -i mpdpss_x.x_all.deb'
+}}}
+
+=== ===
+Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
 
 ----
 
-===Other systems===
+===All systems===
 
 Download the latest package available at [http://code.google.com/p/mpdpss/downloads/list Featured Downloads]. Extract it using your favorite file manager or issuing the command (version is represented by 'x.x'):
 
