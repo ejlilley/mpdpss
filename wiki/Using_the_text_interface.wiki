@@ -1,6 +1,8 @@
 #labels Featured,Phase-Deploy
 First make sure you have read the [http://code.google.com/p/mpdpss/wiki/Requirements Requirements] section.
 
+If you installed the .deb package, you ca have access to its man page. "man mpdpss"
+
 MPD Playlist Saver n' Switcher is actually very easy to use. The first time you run it, it will request for a name to the current playlist. It will save the playlist and you'll be presented with a list of available MPD playlists, each one with a number. You will then be asked to type the number or the playlist name (case insensitive).
 
 {{{
