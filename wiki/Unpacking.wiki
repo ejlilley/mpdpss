@@ -6,6 +6,7 @@ If you use a Debian based system, like Ubuntu, MEPIS, antiX, or Linux Mint, you 
 Any other Unix-like system: [Unpacking#All_systems All systems].
 
 ----
+=== ===
 
 ===Debian based systems===
 
@@ -28,6 +29,7 @@ $ su -c 'dpkg -i mpdpss_x.x_all.deb'
 Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
 
 ----
+=== ===
 
 ===All systems===
 
@@ -55,7 +57,8 @@ Or graphical mode:
 $ ./mpdpss -g
 }}}
 
-====Tip====
+=== ===
+===Tip!===
 
 You can move it to your $PATH (you can get one by issuing the command 'echo $PATH') or you can create your personal PATH, I mean, a directory inside your $HOME where you can store scripts and binaries, so you don't need to modify anything as root!
 
