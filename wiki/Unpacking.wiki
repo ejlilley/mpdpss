@@ -5,12 +5,12 @@ If you use a Debian based system, like Ubuntu, MEPIS, antiX, or Linux Mint, you 
 
 Any other Unix-like system: [Unpacking#All_systems All systems].
 
+=== ===
 ----
 === ===
 === ===
 === ===
 ===Debian based systems===
-=== ===
 
 Download the latest .deb package [http://code.google.com/p/mpdpss/downloads/list available here].
 
@@ -30,12 +30,12 @@ $ su -c 'dpkg -i mpdpss_x.x_all.deb'
 === ===
 Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
 
+=== ===
 ----
 === ===
 === ===
 === ===
 ===All systems===
-=== ===
 
 Download the latest package available at [http://code.google.com/p/mpdpss/downloads/list Featured Downloads]. Extract it using your favorite file manager or issuing the command (version is represented by 'x.x'):
 
