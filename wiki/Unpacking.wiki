@@ -37,7 +37,7 @@ Now you can read the [Using_the_text_interface Using the text interface] section
 === ===
 ===All systems===
 
-Download the latest package available at [http://code.google.com/p/mpdpss/downloads/list Featured Downloads]. Extract it using your favorite file manager or issuing the command (version is represented by 'x.x'):
+Download the latest .tar.gz package available at [http://code.google.com/p/mpdpss/downloads/list Featured Downloads]. Extract it using your favorite file manager or issuing the command (version is represented by 'x.x'):
 
 {{{
 $ tar xvf mpdpss-x.x.tar.gz
