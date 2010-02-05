@@ -62,7 +62,10 @@ $ ./mpdpss -g
 }}}
 
 === ===
-===Tip!===
+Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
+
+=== ===
+===Tips!===
 
 You can move it to your $PATH (you can get one by issuing the command 'echo $PATH') or you can create your personal PATH, I mean, a directory inside your $HOME where you can store scripts and binaries, so you don't need to modify anything as root!
 
@@ -82,7 +85,4 @@ $ mpdpss
 }}}
 
 === ===
-If you use the graphical interface, you could then add "mpdpss -g" to your menu or desktop. But this varies from one Desktop Environment or Window Manager to another.
-
-=== ===
-Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
+If you use the graphical interface, you could then add "mpdpss -g" to your menu or desktop. But instructions for this varies from one Desktop Environment or Window Manager to another.
