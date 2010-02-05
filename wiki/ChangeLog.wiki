@@ -1,5 +1,12 @@
 #labels Featured,Phase-Design
-*2010-02-02 - 1.5.1 release*
+*2010-02-05 - 1.6 release*
+        * mpdpss: totally revised for more POSIX compliance.
+        * mpdpss: added option -h, to display a brief help.
+        * mpdpss: added option -n, for output with no colors.
+        * mpdpss: added option -z, to just switch playlists without saving the state of the current.
+        * more bug fixes.
+
+*2010-02-02 - 1.5.1 release* ***Important***
         * mpdpss: fixed a bug brought by upgrading mpc to version 0.19, which would cause it not to store the state of playlists.
 
 *2010-01-31 - 1.5 release*
