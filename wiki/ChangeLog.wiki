@@ -4,6 +4,8 @@
         * mpdpss: added option -h, to display a brief help.
         * mpdpss: added option -n, for output with no colors.
         * mpdpss: added option -z, to just switch playlists without saving the state of the current.
+        * fixed small window sizes.
+        * added a logo for window decoration.
         * more bug fixes.
 
 *2010-02-02 - 1.5.1 release* - *-Important-*
