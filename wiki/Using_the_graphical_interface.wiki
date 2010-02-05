@@ -16,24 +16,17 @@ It will save the playlist and you'll be presented with a list of available MPD p
 http://mpdpss.googlecode.com/files/mpdpss_normal.png
 
 === ===
-The next time you run it, you won't be asked for a name again, but you will go directly to list to choose, as in screenshot 2!
+The next time you run it, you won't be asked for a name again, but you will go directly to the list to choose, as in screenshot 2!
 
 Let's suppose that, in the example above, you loaded the playlist "international". The next time you run the script, your current playlist will be automatically saved as "international".
 
-*I recommend you then to always switch playlists with mpdpss*. If you, for example, cleared the current playlist and loaded the "90s" using your client, mpdpss will try to save it as "international", as it remembers what it did before. If you want to save that as "90s" instead when switching playlists with mpdpss, you could use the '-s' flag:
+*I recommend you then to always switch playlists with mpdpss*. If you, for example, cleared the current playlist and loaded the "90s" using your client, mpdpss will try to save it as "international", as it remembers what it did before. If you want to save that as "90s" instead when switching playlists with mpdpss, you could use the '-p' flag together the '-g'
 
 {{{
-$ mpdpss -s 90s
+$ mpdpss -gp
 }}}
 
 === ===
-Then your playlist will be saved as "90s" instead of "international". Use quotes around it if the playlist name contains spaces.
+Then you'll be prompted for a name to the current playlist, just like in the first time you have run it.
 
-Or you can use the option -p to be prompted for a name to the current playlist, just like in the first time you have run it.
-
-{{{
-$ mpdpss -p
-}}}
-
-=== ===
-Other command-line options can be found at [Using_the_text_interface]
+There are many useful commands you can get [Using_the_text_interface here], or by running "mpdpss -gh"
