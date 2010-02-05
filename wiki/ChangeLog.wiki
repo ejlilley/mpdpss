@@ -8,7 +8,7 @@
         * added a logo for window decoration.
         * more bug fixes.
 
-*2010-02-02 - 1.5.1 release* - *-Important-*
+*2010-02-02 - 1.5.1 release*  *-Important-*
         * mpdpss: fixed a bug brought by upgrading mpc to version 0.19, which would cause it not to store the state of playlists.
 
 *2010-01-31 - 1.5 release*
