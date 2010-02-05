@@ -1,12 +1,12 @@
 #labels Featured,Phase-Requirements
-[http://mpd.wikia.com/wiki/Client:Mpc mpc (>= 0.19-2)] is required for the latest package. It could also work with previous versions, though it is not recommended. If you can't by some reason upgrade mpc, and mpdpss hasn't been able to save the states of playlists, try mpdpss 1.5.0.
+[http://mpd.wikia.com/wiki/Client:Mpc mpc (>= 0.19-2)] is required for the latest package. If you can't by some reason upgrade mpc, and mpdpss hasn't been able to save the states of playlists, try mpdpss 1.5.
 
 [http://live.gnome.org/Zenity Zenity] is required if you want to use the GTK+ graphical interface. Zenity doesn't require you to install GNOME libraries. Run mpdpss with the -g option then.
 
 MPD, mpc, and Zenity should be available at your distribution repositories for simple installation, as well as many clients. To install MPD, mpc, and Zenity in Debian based systems, like Ubuntu or Debian itself, you can use your package manager or open a terminal and type or paste (never type the "$"):
 
 {{{
-$ sudo apt-get install mpd mpc zenity ncmpcpp 
+$ sudo apt-get install mpd mpc zenity
 
 # type your password if needed
 }}}
@@ -15,17 +15,10 @@ $ sudo apt-get install mpd mpc zenity ncmpcpp
 or MEPIS:
 
 {{{
-$ su -c 'apt-get install mpd mpc zenity ncmpcpp'
+$ su -c 'apt-get install mpd mpc zenity'
 
 # type root password
 }}}
 
 === ===
-Now you can read the [Unpacking] section, or if you already know how to extract the downloaded package, go to the [Using_the_text_interface Using the text interface] or [Using_the_graphical_interface  Using the graphical interface]!
-
-=== ===
-----
-
-MPD clients I admire are:
- # for terminal: ncmpcpp
- # for GUI: gmpc
+Now you can read the [Unpacking] section, or if you already know how to extract the downloaded package, go to the [Using_the_text_interface Using the text interface] or [Using_the_graphical_interface Using the graphical interface]!
