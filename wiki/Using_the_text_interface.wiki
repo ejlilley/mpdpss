@@ -1,9 +1,11 @@
 #labels Featured,Phase-Deploy
 First make sure you have read the [http://code.google.com/p/mpdpss/wiki/Requirements Requirements] section.
 
-If you installed the .deb package, you can have access to its man page. "man mpdpss"
+A help with all commands are available by running "mpdpss -h". If you installed the .deb package, you can also have access to its man page. "man mpdpss"
 
-MPD Playlist Saver n' Switcher is actually very easy to use. The first time you run it, it will request for a name to the current playlist. It will save the playlist and you'll be presented with a list of available MPD playlists, each one with a number. You will then be asked to type the number or the playlist name (case insensitive).
+
+===Basic Usage===
+mpdpss is actually very easy to use. The first time you run it, it will request for a name to the current playlist. It will save the playlist and you'll be presented with a list of available MPD playlists, each one with a number. You will then be asked to type the number or the playlist name (case insensitive).
 
 {{{
 $ mpdpss
@@ -32,10 +34,11 @@ Paul Baloche - Ouvre Les Yeux de Mon Coeur
 }}}
 
 === ===
-====Options====
 The next time you run it, you won't be asked for a name again! In the example above you loaded the playlist "international". The next time you run the script, your current playlist will be automatically saved as "international".
 
-*I recommend you then to always switch playlists with mpdpss.* Let's suppose you cleared the current playlist and loaded the "90s" using your client. mpdpss will try to save it as "international", as it remembers what it did before. If you want to save that as "90s" instead when switching playlists with mpdpss, you could use the '-s' flag:
+
+===Options===
+Paying attention to what has been mentioned previously, *I recommend you then to always switch playlists with mpdpss.* Let's suppose you loaded the "international", cleared the current playlist and loaded the "90s" using your favorite client. mpdpss will try to save it as "international", as it remembers what it did before. If you want to save that as "90s" instead when switching playlists with mpdpss, you could use the '-s' flag:
 
 {{{
 $ mpdpss -s 90s
@@ -71,4 +74,8 @@ $ mpdpss -s "momma's songs" -l international
 }}}
 
 === ===
+If you find problems with the colored text output in the terminal, or if characters aren't displayed properly, you should use the option -n.
+
 The '-g' option calls the [Using_the_graphical_interface GTK+ graphical interface], which requires you to have [http://live.gnome.org/Zenity Zenity] installed.
+
+You can call the option -z to discard the state of the current playlist and just make the switch.
