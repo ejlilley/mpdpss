@@ -1,4 +1,7 @@
 #labels Featured,Phase-Design
+*2010-02-09 - 1.7.1 release*
+        * mpdpss.en: fixed broken translation file.
+
 *2010-02-09 - 1.7 release*
         * added translation support.
         * included Portuguese translation.
