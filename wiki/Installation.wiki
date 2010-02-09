@@ -1,0 +1,58 @@
+[http://mpd.wikia.com/wiki/Client:Mpc mpc (>= 0.19)] is required for the latest package. If you can't by some reason upgrade mpc, and mpdpss hasn't been able to save the states of playlists, try the older mpdpss 1.5.
+
+[http://live.gnome.org/Zenity Zenity] is required if you want to use the GTK+ graphical interface. Zenity doesn't require you to install GNOME libraries.
+
+If you use a Debian based system, like Ubuntu, MEPIS, antiX, or Linux Mint, you should prefer the .deb package. Go here: [#Debian_based_systems Debian based systems].
+
+Any other Unix-like system: [#All_systems All systems].
+
+=== ===
+----
+=== ===
+=== ===
+=== ===
+===Debian based systems===
+To install MPD, mpc, and Zenity (optional), you can use your package manager or type the following in a terminal *AS ROOT*:
+
+{{{
+$ apt-get install mpd mpc zenity
+}}}
+
+Download the latest .deb package [http://code.google.com/p/mpdpss/downloads/list available here].
+
+Depending on your system, you can just double click on it. Or you can install it *AS ROOT* in a terminal (version is represented by 'x.x'):
+
+{{{
+$ dpkg -i mpdpss_x.x_all.deb
+}}}
+
+=== ===
+Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
+
+=== ===
+----
+=== ===
+=== ===
+=== ===
+===All systems===
+
+MPD, mpc, and Zenity (optional) should be available at your distribution repositories for simple installation. After making sure you have them installed, download the latest .tar.gz package available at [http://code.google.com/p/mpdpss/downloads/list Featured Downloads]. Extract it using your favorite file manager or issuing the command (version is represented by 'x.x'):
+
+{{{
+$ tar xvf mpdpss-x.x.tar.gz
+}}}
+
+Then go to the directory you extracted:
+
+{{{
+$ cd mpdpss-x.x
+}}}
+
+And run .install *AS ROOT*:
+
+{{{
+$ ./install
+}}}
+
+=== ===
+Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
