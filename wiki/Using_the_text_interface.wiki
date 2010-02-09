@@ -78,4 +78,5 @@ The '-g' option calls the [Using_the_graphical_interface GTK+ graphical interfac
 
 You can call the option -z to discard the state of the current playlist and just make the switch.
 
-Most commands can be made permanent by editing $HOME/.mpdpss.conf, which will be created the first time you run mpdpss.
+===Configuration===
+Most commands described above can be made permanent by editing $HOME/.mpdpss.conf, which will be created the first time you run mpdpss.
