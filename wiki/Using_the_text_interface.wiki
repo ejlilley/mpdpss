@@ -1,7 +1,5 @@
 #labels Featured,Phase-Deploy
-First make sure you have read the [http://code.google.com/p/mpdpss/wiki/Requirements Requirements] section.
-
-A help with all commands are available by running "mpdpss -h". If you installed the .deb package, you can also have access to its man page. "man mpdpss"
+You can have access to its manual by typing "man mpdpss" or for a brief help "mpdpss -h".
 
 
 ===Basic Usage===
@@ -79,3 +77,5 @@ If you find problems with the colored text output in the terminal, or if charact
 The '-g' option calls the [Using_the_graphical_interface GTK+ graphical interface], which requires you to have [http://live.gnome.org/Zenity Zenity] installed.
 
 You can call the option -z to discard the state of the current playlist and just make the switch.
+
+Most commands can be made permanent by editing $HOME/.mpdpss.conf, which will be created the first time you run mpdpss.
