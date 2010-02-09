@@ -1,3 +1,4 @@
+#labels Featured,Phase-Deploy
 [http://mpd.wikia.com/wiki/Client:Mpc mpc (>= 0.19)] is required for the latest package. If you can't by some reason upgrade mpc, and mpdpss hasn't been able to save the states of playlists, try the older mpdpss 1.5.
 
 [http://live.gnome.org/Zenity Zenity] is required if you want to use the GTK+ graphical interface. Zenity doesn't require you to install GNOME libraries.
