@@ -2,13 +2,12 @@
 
 [http://live.gnome.org/Zenity Zenity] is required if you want to use the GTK+ graphical interface. Zenity doesn't require you to install GNOME libraries.
 
-If you use a Debian based system, like Ubuntu, MEPIS, antiX, or Linux Mint, you should prefer the .deb package. Go here: [#Debian_based_systems Debian based systems].
+If you use a Debian based system, you should prefer the .deb package. See [#Debian_based_systems Debian based systems].
 
-Any other Unix-like system: [#All_systems All systems].
+For any other Unix-like system: [#All_systems All systems].
 
 === ===
 ----
-=== ===
 === ===
 === ===
 ===Debian based systems===
@@ -18,9 +17,7 @@ To install MPD, mpc, and Zenity (optional), you can use your package manager or 
 $ apt-get install mpd mpc zenity
 }}}
 
-Download the latest .deb package [http://code.google.com/p/mpdpss/downloads/list available here].
-
-Depending on your system, you can just double click on it. Or you can install it *AS ROOT* in a terminal (version is represented by 'x.x'):
+Download the latest .deb package [http://code.google.com/p/mpdpss/downloads/list available here]. Depending on your system, you can just double click on it. Or you can install it *AS ROOT* in a terminal (version is represented by 'x.x'):
 
 {{{
 $ dpkg -i mpdpss_x.x_all.deb
@@ -31,7 +28,6 @@ Now you can read the [Using_the_text_interface Using the text interface] section
 
 === ===
 ----
-=== ===
 === ===
 === ===
 ===All systems===
@@ -53,6 +49,8 @@ And run .install *AS ROOT*:
 {{{
 $ ./install
 }}}
+
+mpdpss is supposed to work in Linux, Unix, Solaris, Mac, BSD... If it doesn't, we could work together to fix that. Open a [http://code.google.com/p/mpdpss/issues/list issue]!
 
 === ===
 Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
