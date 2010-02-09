@@ -1,4 +1,12 @@
 #labels Featured,Phase-Design
+*2010-02-09 - 1.7 release*
+        * added translation support.
+        * included portuguese translation.
+        * added configuration file.
+        * added install script.
+        * included man page for all packages.
+        * more bugs fixed.
+
 *2010-02-05 - 1.6 release*
         * mpdpss: totally revised for more POSIX compliance.
         * mpdpss: added option -h, to display a brief help.
