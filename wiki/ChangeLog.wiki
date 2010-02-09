@@ -1,7 +1,7 @@
 #labels Featured,Phase-Design
 *2010-02-09 - 1.7 release*
         * added translation support.
-        * included portuguese translation.
+        * included Portuguese translation.
         * added configuration file.
         * added install script.
         * included man page for all packages.
