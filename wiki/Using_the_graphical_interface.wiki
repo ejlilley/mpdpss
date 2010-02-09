@@ -1,11 +1,6 @@
 #labels Featured,Phase-Deploy
-First make sure you have read the [Requirements] section. For the GTK+ graphical interface you need to run mpdpss with the '-g' flag. [http://live.gnome.org/Zenity Zenity] is required.
+For the GTK+ graphical interface you need to run mpdpss as "mpdpss -g" or edit $HOME/.mpdpss.conf (which will be created the first time you run it) and set graphical to true. [http://live.gnome.org/Zenity Zenity] is required.
 
-{{{
-$ mpdpss -g
-}}}
-
-=== ===
 MPD Playlist Saver n' Switcher is actually very easy to use. The first time you run it, it will request for a name to the current playlist.
 
 http://mpdpss.googlecode.com/files/mpdpss_firstrun_2.png
@@ -29,4 +24,6 @@ $ mpdpss -gp
 === ===
 Then you'll be prompted for a name to the current playlist, just like in the first time you have run it.
 
-There are many useful commands you can get [Using_the_text_interface here], or by running "mpdpss -gh"
+There are many useful commands you can get [Using_the_text_interface here], or by running "mpdpss -gh" or "man mpdpss" (which is more complete)
+
+Configuration is provided in the file $HOME/.mpdpss.conf
