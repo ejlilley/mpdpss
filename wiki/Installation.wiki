@@ -51,7 +51,7 @@ And run .install *AS ROOT*:
 $ ./install
 }}}
 
-mpdpss is supposed to work in Linux, Unix, Solaris, Mac, BSD... If it doesn't, we could work together to fix that. Open a [http://code.google.com/p/mpdpss/issues/list issue]!
+mpdpss is supposed to work in Linux, Unix, Solaris, Mac, BSD... If it doesn't, we could work together to fix that. Open an [http://code.google.com/p/mpdpss/issues/list issue]!
 
 === ===
 Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
