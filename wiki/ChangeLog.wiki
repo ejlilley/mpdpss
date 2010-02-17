@@ -1,4 +1,11 @@
 #labels Featured,Phase-Design
+*2010-02-17 - 1.7.2 release*
+        * mpdpss: better locale detection.
+        * mpdpss: use of pidof command removed.
+        * mpdpss: fixed a bug that would make it remember last loaded playlist when no playlist was loaded.
+        * uninstall: fixed removing per user files.
+        * other minor fixes.
+
 *2010-02-09 - 1.7.1 release*
         * mpdpss.en: fixed broken translation file.
 
