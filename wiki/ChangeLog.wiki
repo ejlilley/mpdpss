@@ -47,7 +47,6 @@
         * no need to edit the script anymore
         * states saved in a per user mpdpss_state file now
         * mpc added as a dependency
-        * should work now in any unix shell (needs testing)
 
 *2010-01-08 - 0.1.2b release*
         * Fixed a bug where mpd.conf should include absolute paths, now the use of ~ is supported for home directory.
