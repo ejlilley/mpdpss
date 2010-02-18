@@ -1,0 +1,69 @@
+#labels Featured,Phase-Deploy
+[http://mpd.wikia.com/wiki/Client:Mpc mpc (>= 0.19)] is required for the latest package. If you can't by some reason upgrade mpc, and mpdpss hasn't been able to save the states of playlists, try the older mpdpss 1.5.
+
+[http://live.gnome.org/Zenity Zenity (>= 2.14)] is required if you want to use the GTK+ graphical interface. Zenity doesn't require you to install GNOME libraries. Versions older than 2.14 might bring errors that would make mpdpss stop.
+
+If you use a Debian based system, you should prefer the .deb package. See [#Debian_based_systems Debian based systems].
+
+For any other Unix-like system: [#All_systems All systems].
+
+=== ===
+----
+=== ===
+=== ===
+===Debian based systems===
+To install MPD, mpc, and Zenity (optional), you can use your package manager or type the following in a terminal (never type the '$'):
+
+{{{
+$ sudo apt-get install mpd mpc zenity
+}}}
+or
+{{{
+$ su -c 'apt-get install mpd mpc zenity'
+}}}
+
+Download the latest .deb package [http://code.google.com/p/mpdpss/downloads/list available here]. Depending on your system, you can just double click on it. Or you can install it in a terminal (version is represented by 'x.x'):
+
+{{{
+$ sudo dpkg -i mpdpss_x.x_all.deb
+}}}
+or
+{{{
+$ su -c 'dpkg -i mpdpss_x.x_all.deb'
+}}}
+
+=== ===
+Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
+
+=== ===
+----
+=== ===
+=== ===
+===All systems===
+
+MPD, mpc, and Zenity (optional) should be available at your distribution repositories for simple installation. After making sure you have them installed, download the latest .tar.gz package available at [http://code.google.com/p/mpdpss/downloads/list Featured Downloads]. Extract it using your favorite file manager or issuing the command (version is represented by 'x.x', never type the '$'):
+
+{{{
+$ tar xvf mpdpss-x.x.tar.gz
+}}}
+
+Then go to the directory you extracted:
+
+{{{
+$ cd mpdpss-x.x
+}}}
+
+And run .install *AS ROOT*:
+
+{{{
+$ sudo ./install
+}}}
+or
+{{{
+$ su -c './install'
+}}}
+
+mpdpss is supposed to work in Linux, Unix, Solaris, Mac, BSD... If it doesn't, we could work together to fix that: open an [http://code.google.com/p/mpdpss/issues/list issue]!
+
+=== ===
+Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
