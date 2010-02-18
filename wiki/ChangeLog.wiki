@@ -1,4 +1,8 @@
 #labels Featured,Phase-Design
+*2010-02-18 - 1.7.3 release*
+        * mpdpss: modified zenity arguments parsing.
+        * revised dependencies versions.
+
 *2010-02-17 - 1.7.2 release*
         * mpdpss: better locale detection.
         * mpdpss: use of pidof command removed.
