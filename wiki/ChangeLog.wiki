@@ -1,4 +1,13 @@
 #labels Featured,Phase-Design
+*2010-02-21 - 1.8 release*
+        * mpdpss: adapted to use dmenu or wimenu.
+        * dwm-tools added as a recommend (for deb package).
+        * mpdpss: added option -m, to choose playlists with the menu.
+        * mpdpss: added option -o, to parse options to the menu.
+        * fixed some issues in install script.
+        * mpdpss: added a workaround for possible volume problems.
+        * bug fixed in 1.7.2, now fixed in the GUI aswell.
+
 *2010-02-18 - 1.7.3 release*
         * mpdpss: modified zenity arguments parsing.
         * revised dependencies versions.
