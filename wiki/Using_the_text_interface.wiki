@@ -76,6 +76,8 @@ If you find problems with the colored text output in the terminal, or if charact
 
 The '-g' option calls the [Using_the_graphical_interface GTK+ graphical interface], which requires you to have [http://live.gnome.org/Zenity Zenity] installed.
 
+Option '-d' calls dmenu to list all available playlists, and '-m' is used to give options to dmenu. For wimenu it is '-w' and '-i' respectively. Check [Using_the_menu Using the menu]!
+
 You can call the option -z to discard the state of the current playlist and just make the switch.
 
 ===Configuration===
