@@ -3,6 +3,8 @@
 
 [http://live.gnome.org/Zenity Zenity (>= 2.14)] is required if you want to use the GTK+ graphical interface. Zenity doesn't require you to install GNOME libraries. Versions older than 2.14 might bring errors that would make mpdpss stop.
 
+[http://tools.suckless.org/dmenu/ dmenu] or [http://wmii.suckless.org/ wmii (>= 3.9beta)] is required if you want to switch using menus. dmenu is very small and packaged in some distributions as 'dwm-tools', while wmii provides wimenu and is a full window manager.
+
 If you use a Debian based system, you should prefer the .deb package. See [#Debian_based_systems Debian based systems].
 
 For any other Unix-like system: [#All_systems All systems].
@@ -12,14 +14,14 @@ For any other Unix-like system: [#All_systems All systems].
 === ===
 === ===
 ===Debian based systems===
-To install MPD, mpc, and Zenity (optional), you can use your package manager or type the following in a terminal (never type the '$'):
+To install MPD, mpc, Zenity (optional), and dmenu (optional), you can use your package manager or type the following in a terminal (never type the '$'):
 
 {{{
-$ sudo apt-get install mpd mpc zenity
+$ sudo apt-get install mpd mpc zenity dwm-tools
 }}}
 or
 {{{
-$ su -c 'apt-get install mpd mpc zenity'
+$ su -c 'apt-get install mpd mpc zenity dwm-tools'
 }}}
 
 Download the latest .deb package [http://code.google.com/p/mpdpss/downloads/list available here]. Depending on your system, you can just double click on it. Or you can install it in a terminal (version is represented by 'x.x'):
@@ -41,7 +43,7 @@ Now you can read the [Using_the_text_interface Using the text interface] section
 === ===
 ===All systems===
 
-MPD, mpc, and Zenity (optional) should be available at your distribution repositories for simple installation. After making sure you have them installed, download the latest .tar.gz package available at [http://code.google.com/p/mpdpss/downloads/list Featured Downloads]. Extract it using your favorite file manager or issuing the command (version is represented by 'x.x', never type the '$'):
+MPD, mpc, Zenity (optional), and dmenu (optional) should be available at your distribution repositories for simple installation. After making sure you have them installed, download the latest .tar.gz package available at [http://code.google.com/p/mpdpss/downloads/list Featured Downloads]. Extract it using your favorite file manager or issuing the command (version is represented by 'x.x', never type the '$'):
 
 {{{
 $ tar xvf mpdpss-x.x.tar.gz
