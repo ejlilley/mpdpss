@@ -1,0 +1,24 @@
+#labels Featured,Phase-Deploy
+Thou it doesn't provide all the functionality available in the other commands, using dmenu or wimenu is fairly the fastest way to switch playlists.
+
+To use dmenu
+{{{
+$ mpdpss -d
+}}}
+To parse the options case insensitive (the default for mpdpss) and bottom to dmenu:
+{{{
+$ mpdpss -dm "-i -b"
+}}}
+
+To use wimenu
+{{{
+$ mpdpss -w
+}}}
+To parse a prompt with the word 'Choose' to wimenu:
+{{{
+$ mpdpss -wi "-p Choose"
+}}}
+
+wimenu is still in beta stage, so I couldn't make the option '-i' the default for mpdpss.
+
+Please, see [Using_the_text_interface Using the text interface] for all available commands for mpdpss. See also 'man dmenu' and 'man wimenu'.
