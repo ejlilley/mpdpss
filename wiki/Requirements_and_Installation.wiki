@@ -35,7 +35,7 @@ $ su -c 'dpkg -i mpdpss_x.x_all.deb'
 }}}
 
 === ===
-Now you can read the [Using_the_text_interface Using the text interface] section or the [Using_the_graphical_interface  Using the graphical interface] section!
+Now you can go ahead and check how to use the [Using_the_text_interface text interface], [Using_the_graphical_interface the graphical interface] or [Using_the_menu the menu]!
 
 === ===
 ----
@@ -68,4 +68,4 @@ $ su -c './install'
 mpdpss is supposed to work in Linux, Unix, Solaris, Mac, BSD... If it doesn't, we could work together to fix that: open an [http://code.google.com/p/mpdpss/issues/list issue]!
 
 === ===
-Now you can read the [Using_the_text_interface Using the text interface] section, the [Using_the_graphical_interface  Using the graphical interface] section or the [Using_the_menu Using the menu] section!
+Now you can go ahead and check how to use the [Using_the_text_interface text interface], [Using_the_graphical_interface the graphical interface] or [Using_the_menu the menu]!
