@@ -1,9 +1,11 @@
 #labels Featured,Phase-Deploy
-You can have access to its manual by typing "man mpdpss" or for a brief help "mpdpss -h".
+First make sure you've already read [Requirements_and_Installation Requirements and Installation].
+
+You can have access to mpdpss manual by typing in a terminal "man mpdpss", or for a brief help "mpdpss -h".
 
 
 ===Basic Usage===
-mpdpss is actually very easy to use. The first time you run it, it will request for a name to the current playlist. It will save the playlist and you'll be presented with a list of available MPD playlists, each one with a number. You will then be asked to type the number or the playlist name (case insensitive).
+mpdpss is actually very easy to use. The first time you run it, it will request for a name to the current playlist. It will save the playlist and you'll be presented with a list of available MPD playlists, each one with a number. You will then be asked to type the number of the playlist name (case insensitive).
 
 {{{
 $ mpdpss
