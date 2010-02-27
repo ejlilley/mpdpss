@@ -11,19 +11,21 @@ It will save the playlist and you'll be presented with a list of available MPD p
 
 http://mpdpss.googlecode.com/files/mpdpss_normal_gui.png
 
-The next time you run it, you won't be asked for a name again, but you will go directly to the list to choose, as in screenshot 2!
+The next time you run it, you won't be asked for a name again, but you will go directly to choose a list, as in screenshot 2! You loaded the playlist "international". The next time, your current playlist will be automatically saved as "international".
 
-Let's suppose that, in the example above, you loaded the playlist "Instrumental". The next time you run the script, your current playlist will be automatically saved as "Instrumental".
+*I recommend you then to always switch playlists with mpdpss*. If you, for example, cleared the current playlist and loaded "90s" using your MPD client, mpdpss will try to save it as "international", as it remembers what it did before.
 
-*I recommend you then to always switch playlists with mpdpss*. If you, for example, cleared the current playlist and loaded the "Italiano" using your client, mpdpss will try to save it as "Instrumental", as it remembers what it did before. If you want to save that as "Italiano" instead when switching playlists with mpdpss, you could use the '-p' flag together the '-g'
+If you want to save that as "90s" instead, you could use the '-p' flag together the '-g'
 
 {{{
 $ mpdpss -gp
 }}}
 
-=== ===
 Then you'll be prompted for a name to the current playlist, just like in the first time you have run it.
 
-There are many useful commands you can get [Using_the_text_interface here], or by running "mpdpss -gh" or "man mpdpss" (which is more complete)
+======
+There are many ways to make mpdpss behave more the way you want:
 
-Configuration is provided in the file $HOME/.mpdpss.conf
+You can have a look at the available commands [Using_the_text_interface here], or by running "mpdpss -gh" or "man mpdpss" (which is more complete).
+
+Most commands have their equivalent configuration, which is provided in the file $HOME/.mpdpss.conf
