@@ -1,5 +1,11 @@
 #labels Featured,Phase-Deploy
-Thou it doesn't provide all the options available in the other commands, using dmenu or wimenu is fairly the fastest way to switch playlists. The first time you run mpdpss, it will prompt for a name to current playlist. You should do that in a terminal or [Using_the_graphical_interface using Zenity]. Then next time you run mpdpss, just choose which playlist to load, or press ESC to exit (which will just save the state of the current).
+First make sure you have read [Requirements_and_Installation Requirements and Installation].
+
+Using dmenu or wimenu is fairly the fastest way to switch playlists.
+
+The first time you run mpdpss, it will prompt for a name to the current playlist. You should do the first run in a terminal or [Using_the_graphical_interface using Zenity].
+
+Then next time you run mpdpss, just choose which playlist to load, or press ESC to exit (which will just save the state of the current).
 
 To use dmenu
 {{{
@@ -10,7 +16,7 @@ To parse the options case insensitive (the default for mpdpss) and bottom to dme
 $ mpdpss -dm "-i -b"
 }}}
 
-http://mpdpss.googlecode.com/files/mpdpss_dm_2.png
+http://mpdpss.googlecode.com/files/mpdpss_dmenu.png
 
 To use wimenu
 {{{
@@ -21,10 +27,11 @@ To parse a prompt with the word 'Choose' to wimenu:
 $ mpdpss -wi "-p Choose"
 }}}
 
-http://mpdpss.googlecode.com/files/mpdpss_wi_2.png
+http://mpdpss.googlecode.com/files/mpdpss_wimenu.png
 
 wimenu is still in beta stage, so I couldn't make the option '-i' the default for mpdpss.
 
-If you always want to use the menu or if you want to make any option the default, edit $HOME/.mpdpss.conf, which will be generated the first time you run mpdpss.
-
+======
 Please, see [Using_the_text_interface Using the text interface] for all available commands for mpdpss. See also 'man dmenu' and 'man wimenu'.
+
+If you always want to use the menu, or if you want to make any option the default, edit $HOME/.mpdpss.conf, which will be generated the first time you run mpdpss.
