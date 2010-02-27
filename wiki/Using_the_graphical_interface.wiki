@@ -1,4 +1,6 @@
 #labels Featured,Phase-Deploy
+First make sure you've already read [Requirements_and_Installation Requirements and Installation].
+
 For the GTK+ graphical interface you need to run mpdpss as "mpdpss -g" or edit $HOME/.mpdpss.conf (which will be created the first time you run it) and set the option "graphical" to "true". [http://live.gnome.org/Zenity Zenity] is required.
 
 MPD Playlist Saver n' Switcher is actually very easy to use. The first time you run it, it will request for a name to the current playlist.
