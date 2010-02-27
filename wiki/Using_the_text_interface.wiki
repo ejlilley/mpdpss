@@ -1,5 +1,5 @@
 #labels Featured,Phase-Deploy
-First make sure you've already read [Requirements_and_Installation Requirements and Installation].
+First make sure you have read [Requirements_and_Installation Requirements and Installation].
 
 You can have access to mpdpss manual by typing in a terminal "man mpdpss", or for a brief help "mpdpss -h".
 
