@@ -1,5 +1,5 @@
 #labels Featured,Phase-Deploy
-First make sure you've already read [Requirements_and_Installation Requirements and Installation].
+First make sure you have read [Requirements_and_Installation Requirements and Installation].
 
 For the GTK+ graphical interface you need to run mpdpss as "mpdpss -g" or edit $HOME/.mpdpss.conf (which will be created the first time you run it) and set the option "graphical" to "true". [http://live.gnome.org/Zenity Zenity] is required.
 
