@@ -51,7 +51,7 @@ Now you can go ahead and check how to use the [Using_the_text_interface text int
 === ===
 ===All systems===
 
-MPD, mpc, Zenity (optional), and dmenu (optional) should be available at your distribution repositories for simple installation. After making sure you have them installed, download the latest .tar.gz package available at [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CK8RRNGBYDH4Y]. Extract it using your favorite file manager or issuing the command (never type the '$'):
+MPD, mpc, Zenity (optional), and dmenu (optional) should be available at your distribution repositories for simple installation. After making sure you have them installed, download the latest .tar.gz package [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CK8RRNGBYDH4Y available here]. Extract it using your favorite file manager or issuing the command (never type the '$'):
 
 {{{
 $ tar xvf mpdpss-1.8.tar.gz
