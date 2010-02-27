@@ -7,31 +7,7 @@ You can have access to mpdpss manual by typing in a terminal "man mpdpss", or fo
 ===Basic Usage===
 mpdpss is actually very easy to use. The first time you run it, it will request for a name to the current playlist. It will save the playlist and you'll be presented with a list of available MPD playlists, each one with a number. You will then be asked to type the number of the playlist name (case insensitive).
 
-{{{
-$ mpdpss
-
-This is the first time you run mpdpss, welcome!
-Please, type a name to your current playlist and I will save it.
-Otherwise it will be discarded!
-Favorites
-Current playlist saved as "Favorites"
-
-Choose a playlist:
-
-     1  90s
-     2  Christmas
-     3  Favorites
-     4  Indie
-     5  international
-     6  momma's songs
-
-Type the number or the name of the playlist to be loaded and press Enter.
-5
-
-loading: international
-Paul Baloche - Ouvre Les Yeux de Mon Coeur
-[playing] #1/1248   0:00/5:23 (0%)
-}}}
+http://mpdpss.googlecode.com/files/mpdpss_firstrun_tui.png
 
 === ===
 The next time you run it, you won't be asked for a name again! In the example above you loaded the playlist "international". The next time you run the script, your current playlist will be automatically saved as "international".
