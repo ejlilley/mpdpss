@@ -9,9 +9,7 @@ mpdpss is actually very easy to use. The first time you run it, it will request 
 
 http://mpdpss.googlecode.com/files/mpdpss_firstrun_tui.png
 
-The next time you run it, you won't be asked for a name again!
-
-You loaded the playlist "international". The next time, your current playlist will be automatically saved as "international".
+The next time you run it, you won't be asked for a name again! You loaded the playlist "international". The next time, your current playlist will be automatically saved as "international".
 
 *I recommend you then to always switch playlists with mpdpss.* Let's suppose you cleared the current playlist and loaded "90s" using your favorite MPD client. mpdpss will try to save it as "international", as it remembers what it did before. If you want to save that as "90s" instead when switching playlists with mpdpss, you could use the '-s' flag:
 
