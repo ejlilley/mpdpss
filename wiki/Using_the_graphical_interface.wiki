@@ -5,14 +5,12 @@ For the GTK+ graphical interface you need to run mpdpss as "mpdpss -g" or edit $
 
 MPD Playlist Saver n' Switcher is actually very easy to use. The first time you run it, it will request for a name to the current playlist.
 
-http://mpdpss.googlecode.com/files/mpdpss_firstrun_2.png
+http://mpdpss.googlecode.com/files/mpdpss_firstrun_gui.png
 
-=== ===
 It will save the playlist and you'll be presented with a list of available MPD playlists. Choose the playlist you want to be loaded.
 
-http://mpdpss.googlecode.com/files/mpdpss_normal_2.png
+http://mpdpss.googlecode.com/files/mpdpss_normal_gui.png
 
-=== ===
 The next time you run it, you won't be asked for a name again, but you will go directly to the list to choose, as in screenshot 2!
 
 Let's suppose that, in the example above, you loaded the playlist "Instrumental". The next time you run the script, your current playlist will be automatically saved as "Instrumental".
