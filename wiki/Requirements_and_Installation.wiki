@@ -1,4 +1,8 @@
 #labels Featured,Phase-Deploy
+mpdpss will work in any UNIX-like system, including MAC OS X, Linux, Solaris and BSD, and in Windows using Cygwin.
+
+The install script follows the [http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard Filesystem Hierarchy Standard]. Should you have a look at the first lines of the install script to find out where the files will be installed.
+
 [http://mpd.wikia.com/wiki/Client:Mpc mpc (>= 0.19)] is required for the latest package. If you can't by some reason upgrade mpc, and mpdpss hasn't been able to save the states of playlists, ask me for the older mpdpss 1.5.
 
 [http://live.gnome.org/Zenity Zenity (>= 2.14)] is required if you want to use the GTK+ graphical interface. Zenity doesn't require you to install GNOME libraries. Versions older than 2.14 might bring errors that would make mpdpss stop.
@@ -42,7 +46,6 @@ $ su -c 'dpkg -i mpdpss_1.8_all.deb'
 # Type root password
 }}}
 
-=== ===
 Now you can go ahead and check how to use the [Using_the_text_interface text interface], the [Using_the_graphical_interface graphical interface] or the [Using_the_menu menu]!
 
 === ===
@@ -77,6 +80,6 @@ $ su -c './install'
 # Type root password
 }}}
 
-mpdpss is supposed to work in Linux, Unix, Solaris, Mac, BSD... If it doesn't, we could work together to fix that if you open an [http://code.google.com/p/mpdpss/issues/list issue], or try installing [http://www.gnu.org/software/bash/ bash] if you don't have.
+If mpdpss doesn't work as expected, we could work together to fix that if you open an [http://code.google.com/p/mpdpss/issues/list issue], or installing [http://www.gnu.org/software/bash/ bash] should solve most problems.
 
 Now you can go ahead and check how to use the [Using_the_text_interface text interface], the [Using_the_graphical_interface graphical interface] or the [Using_the_menu menu]!
