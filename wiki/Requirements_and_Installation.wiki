@@ -1,7 +1,7 @@
 #labels Featured,Phase-Deploy
 mpdpss will work in any UNIX-like system, including MAC OS X, Linux, Solaris and BSD, and in Windows using Cygwin.
 
-The install script follows the [http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard Filesystem Hierarchy Standard]. Should you have a look at the first lines of the install script to find out where the files will be installed.
+The install script follows the [http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard Filesystem Hierarchy Standard]. Should you have a look at the first lines of the install script to find out the possible paths where the files will be installed.
 
 [http://mpd.wikia.com/wiki/Client:Mpc mpc (>= 0.19)] is required for the latest package. If you can't by some reason upgrade mpc, and mpdpss hasn't been able to save the states of playlists, ask me for the older mpdpss 1.5.
 
