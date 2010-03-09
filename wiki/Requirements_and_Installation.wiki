@@ -1,7 +1,5 @@
 #labels Featured,Phase-Deploy
-mpdpss will work in any UNIX-like system, including MAC OS X, Linux, Solaris and BSD, and in Windows using Cygwin.
-
-The install script follows the [http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard Filesystem Hierarchy Standard]. Should you have a look at the first lines of the install script to find out the possible paths where the files will be installed.
+mpdpss will work in any UNIX-like system, including Linux, MAC OS X, Solaris and BSD, and in Windows using Cygwin.
 
 [http://mpd.wikia.com/wiki/Client:Mpc mpc (>= 0.19)] is required for the latest package. If you can't by some reason upgrade mpc, and mpdpss hasn't been able to save the states of playlists, ask me for the older mpdpss 1.5.
 
@@ -53,6 +51,8 @@ Now you can go ahead and check how to use the [Using_the_text_interface text int
 === ===
 === ===
 ===All systems===
+
+The install script follows the [http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard Filesystem Hierarchy Standard]. Should you have a look at the first lines of the install script to find out the possible paths where the files will be installed.
 
 MPD, mpc, Zenity (optional), and dmenu (optional) should be available at your distribution repositories for simple installation. After making sure you have them installed, download the latest .tar.gz package [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CK8RRNGBYDH4Y available here]. Extract it using your favorite file manager or issuing the command (never type the '$'):
 
