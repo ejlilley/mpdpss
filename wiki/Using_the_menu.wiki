@@ -1,7 +1,7 @@
 #labels Featured,Phase-Deploy
 First make sure you have read [Requirements_and_Installation Requirements and Installation].
 
-Using dmenu or wimenu is fairly the fastest way to switch playlists.
+Using dmenu or wimenu is a very fast way to switch playlists.
 
 The first time you run mpdpss, it will prompt for a name to the current playlist. You should do the first run in a terminal or [Using_the_graphical_interface using Zenity].
 
@@ -28,8 +28,6 @@ $ mpdpss -wi "-p Choose"
 }}}
 
 http://mpdpss.googlecode.com/files/mpdpss_wimenu.png
-
-wimenu is still in beta stage, so I couldn't make the option '-i' the default for mpdpss.
 
 ======
 Please, see [Using_the_text_interface Using the text interface] for all available commands for mpdpss. See also 'man dmenu' and 'man wimenu'.
