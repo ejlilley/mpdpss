@@ -30,7 +30,7 @@ $ su -c 'apt-get install mpd mpc zenity dwm-tools'
 # Type root password
 }}}
 
-Download the latest .deb package [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SK35X82CR2AME available here]. Depending on your system, you can just double click on it. Or you can install it in a terminal:
+Download the latest .deb package [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UHD9U4CGJ3MJ2 available here]. Depending on your system, you can just double click on it. Or you can install it in a terminal:
 
 {{{
 $ sudo dpkg -i mpdpss_1.8_all.deb
@@ -54,7 +54,7 @@ Now you can go ahead and check how to use the [Using_the_text_interface text int
 
 The install script follows the [http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard Filesystem Hierarchy Standard]. Should you have a look at the first lines of the install script to find out the possible paths where the files will be installed.
 
-MPD, mpc, Zenity (optional), and dmenu (optional) should be available at your distribution repositories for simple installation. After making sure you have them installed, download the latest .tar.gz package [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CK8RRNGBYDH4Y available here]. Extract it using your favorite file manager or issuing the command (never type the '$'):
+MPD, mpc, Zenity (optional), and dmenu (optional) should be available at your distribution repositories for simple installation. After making sure you have them installed, download the latest .tar.gz package [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UHD9U4CGJ3MJ2 available here]. Extract it using your favorite file manager or issuing the command (never type the '$'):
 
 {{{
 $ tar xvf mpdpss-1.8.tar.gz
