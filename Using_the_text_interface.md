@@ -1,0 +1,56 @@
+First make sure you have read [Requirements and Installation](Requirements_and_Installation.md).
+
+You can have access to mpdpss manual by typing in a terminal "man mpdpss", or for a brief help "mpdpss -h".
+
+
+### Basic Usage ###
+mpdpss is actually very easy to use. The first time you run it, it will request for a name to the current playlist. It will save the playlist and you'll be presented with a list of available MPD playlists, each one with a number. You will then be asked to type the number of the playlist name (case insensitive).
+
+![http://mpdpss.googlecode.com/files/mpdpss_firstrun_tui.png](http://mpdpss.googlecode.com/files/mpdpss_firstrun_tui.png)
+
+The next time you run it, you won't be asked for a name again! You loaded the playlist "international". The next time, your current playlist will be automatically saved as "international".
+
+**I recommend you then to always switch playlists with mpdpss.** Let's suppose you cleared the current playlist and loaded "90s" using your favorite MPD client. mpdpss will try to save it as "international", as it remembers what it did before. If you want to save that as "90s" instead when switching playlists with mpdpss, you could use the '-s' flag:
+
+```
+$ mpdpss -s 90s
+Current playlist saved as "90s"
+
+[...]
+```
+
+###  ###
+Or you can use the option -p to be prompted for a name to the current playlist, just like in the first time you have run it.
+
+```
+$ mpdpss -p
+```
+
+###  ###
+You can also specify which playlist you want to be loaded using the '-l' flag (case insensitive name or number if you already know it):
+
+```
+$ mpdpss -l International
+Current playlist saved as "90s"
+
+loading: international
+```
+
+###  ###
+Playlists specified from the command-line can be case insensitive, but if it contains spaces, you should uses quotes:
+
+```
+$ mpdpss -s "momma's songs" -l international
+```
+
+###  ###
+If you find problems with the colored text output in the terminal, or if characters aren't displayed properly, you should use the option -n.
+
+The option -g calls the [GTK+ graphical interface](Using_the_graphical_interface.md), which requires you to have [Zenity](http://live.gnome.org/Zenity) installed. For more details: [Using the graphical interface](Using_the_graphical_interface.md).
+
+Option -d calls dmenu to list all available playlists, and -m is used to parse options to dmenu. For wimenu it is -w and -i respectively. Check [Using the menu](Using_the_menu.md)!
+
+You can call the option -z to discard the state of the current playlist and just make the switch.
+
+### Configuration ###
+Most commands described above can be made permanent by editing $HOME/.mpdpss.conf, which will be created the first time you run mpdpss.

@@ -1,0 +1,30 @@
+First make sure you have read [Requirements and Installation](Requirements_and_Installation.md).
+
+For the GTK+ graphical interface you need to run mpdpss as "mpdpss -g" or edit $HOME/.mpdpss.conf (which will be created the first time you run it) and set the option "graphical" to "true". [Zenity](http://live.gnome.org/Zenity) is required.
+
+MPD Playlist Saver n' Switcher is actually very easy to use. The first time you run it, it will request for a name to the current playlist.
+
+![http://mpdpss.googlecode.com/files/mpdpss_firstrun_gui.png](http://mpdpss.googlecode.com/files/mpdpss_firstrun_gui.png)
+
+It will save the playlist and you'll be presented with a list of available MPD playlists. Choose the playlist you want to be loaded.
+
+![http://mpdpss.googlecode.com/files/mpdpss_normal_gui.png](http://mpdpss.googlecode.com/files/mpdpss_normal_gui.png)
+
+The next time you run it, you won't be asked for a name again, but you will go directly to choose a list, as in screenshot 2! You loaded the playlist "international". The next time, your current playlist will be automatically saved as "international".
+
+**I recommend you then to always switch playlists with mpdpss**. If you, for example, cleared the current playlist and loaded "90s" using your MPD client, mpdpss will try to save it as "international", as it remembers what it did before.
+
+If you want to save that as "90s" instead, you could use the '-p' flag together the '-g'
+
+```
+$ mpdpss -gp
+```
+
+Then you'll be prompted for a name to the current playlist, just like in the first time you have run it.
+
+######  ######
+There are many ways to make mpdpss behave more the way you want:
+
+You can have a look at the available commands [here](Using_the_text_interface.md), or by running "mpdpss -gh" or "man mpdpss" (which is more complete).
+
+Most commands have their equivalent configuration, which is provided in the file $HOME/.mpdpss.conf
